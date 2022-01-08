@@ -153,6 +153,43 @@
       <div class="row">
         
         <article class="col-6 col-12-xsmall work-item">
+          <a href="images/fulls/palm.png" class="image fit thumb"><img src="images/thumbs/palm.png" alt="" /></a>
+          <h3>Hand Gesture Mouse</h3>
+          <p>
+            Building a cross-platform input software with Mediapipe’s Hand pipeline and Pynput to create a gesture-controlled trackpad using a camera. 
+            <br><br>
+            Method 1 (Completed): Used Multilayer Perceptron to estimate gesture from hand landmark data. Trained with active learning and SKLearn. 
+            <br><br>
+            Method 2 (Conv2d weight layout incompatible): Transferred weights from Mediapipe’s BlazePalm (Single-Shot Detector with ResNet) TFLite
+            model into PyTorch model, finetune with custom data, and redeploy model into pipeline by converting into ONNX then Tensorflow then TFLite. 
+            <br><br>
+            Method 3 (In Progress): Transferred weights from Mediapipe’s BlazePalm TFLite model into reimplemented Tensorflow Graph (done), finetune
+            with custom gesture data on a GPU, redeploy model into Mediapipe pipeline as TFLite, and evaluate the effect of quantization. 
+            <br><br>
+            Website: <a href="https://gesture.zhukaihan.com/">the Website</a> <sup>gesture.zhukaihan.com</sup><br>
+            Project on Github: <a href="https://github.com/zhukaihan/Gesture-Mouse">the Github Project</a> <sup>https://github.com/zhukaihan/Gesture-Mouse</sup><br>
+          </p>
+        </article>
+        
+        <article class="col-6 col-12-xsmall work-item">
+          <a href="images/fulls/music.png" class="image fit thumb"><img src="images/thumbs/music.png" alt="" /></a>
+          <h3>Music Recommendation</h3>
+          <p>
+            Predict whether the user would churn on a music given how they were presented with the music and the music’s basic information using NumPy, SciPy, SKLearn, Matplotlib, Pandas.
+            <br><br>
+            Engineered and visualized probabilistic features, embeddings, dimensional reduction, and various categorical variables. 
+            <br><br>
+            Tested various machine learning methods: Logistic Regression, Gradient Boosting Trees, LightGBM, Neural Networks, and their ensembles. 
+            <br><br>
+            Report: <a href="Music Recommendation Report.pdf">the Report</a> <sup>Music Recommendation Report.pdf</sup><br>
+            <!-- Project on Github: <a href="https://github.com/users/zhukaihan/projects/1">the Github Project</a> <sup>https://github.com/users/zhukaihan/projects/1</sup><br>
+              Locker's Github Repository: <a href="https://github.com/zhukaihan/Delivery-Locker">Locker's Github Repository</a> <sup>https://github.com/zhukaihan/Delivery-Locker</sup><br>
+              Server's Github Repository: Cannot be posted yet, it has server-side sensitive information, such as database password or WeChat service account secrets. <br> 
+            -->
+          </p>
+        </article>
+        
+        <article class="col-6 col-12-xsmall work-item">
           <a href="images/fulls/posting.png" class="image fit thumb"><img src="images/thumbs/posting.png" alt="" /></a>
           <h3>Online Posting Platform</h3>
           <p>
